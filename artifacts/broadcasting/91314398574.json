@@ -1,0 +1,73 @@
+ACMA REGISTER OF RADIOCOMMUNICATIONS LICENCES (RRL) — PER-LICENSEE ROW ARTIFACT
+====================================================================================
+OFFICIAL ACMA SOURCE URL: https://web.acma.gov.au/rrl-updates/spectra_rrl.zip
+  (HTTP 301 -> https://cdn.acma.gov.au/rrl/spectra_rrl.zip; the file is linked from the ACMA
+   page "Radiocomms licence data" at https://www.acma.gov.au/radiocomms-licence-data)
+DATA VINTAGE / ARCHIVE DATE: current RRL daily data download retrieved 19 August 2026 (UTC); HTTP Last-Modified header of the zip: Wed, 19 Aug 2026 20:47:27 GMT; archive date 2026-08-19.
+  ACMA states of this download: "The download contains a complete data set current for that day."
+  ZIP SHA-256: 0697874595e8f70f034b2a20db0e71b955b19efb09e6aeecf4d4bc3581c07230
+client.csv LOCATOR: file client.csv inside spectra_rrl.zip; record CLIENT_NO=1133847
+licence.csv LOCATOR: file licence.csv inside spectra_rrl.zip; record LICENCE_NO=10099947/1
+CLIENT CLASSIFICATION: CLIENT_TYPE_ID=2 (Other Commonwealth Agency) per client_type.csv — an organisational, non-natural-person client classification (the excluded natural-person classification is CLIENT_TYPE_ID=7, "Person").
+ORGANISATION / ABN: SPECIAL BROADCASTING SERVICE CORPORATION — ABN 91 314 398 574 (no ACN recorded), ACMA RRL CLIENT_NO=1133847
+LICENCE NUMBER: 10099947/1
+LICENCE TYPE / CATEGORY: Broadcasting / National Broadcasting
+LICENCE STATUS: STATUS=1 (Granted); date issued 2026-06-22; date of effect 2026-06-22; date of expiry 2027-06-30
+SERVICE BUCKET PRESENCE: broadcasting — this record sits in RRL service SV_ID=1 "Broadcasting" (licence_service.csv row: 1,Broadcasting); bucket definition: ACMA Broadcasting licences for broadcasters or broadcasting bodies.
+  In this snapshot, CLIENT_NO=1133847 holds 359 granted licence(s) in SV_ID=1; the row below is the most recently issued one.
+
+VERBATIM ROWS AS EXTRACTED FROM THE OFFICIAL ZIP (plain CSV; only postal/contact address columns redacted as out of scope):
+client.csv header:  CLIENT_NO,LICENCEE,TRADING_NAME,ACN,ABN,POSTAL_STREET,POSTAL_SUBURB,POSTAL_STATE,POSTAL_POSTCODE,CAT_ID,CLIENT_TYPE_ID,FEE_STATUS_ID
+client.csv row:     1133847,SPECIAL BROADCASTING SERVICE CORPORATION,Transmission Services,,91314398574,[redacted-postal-field],[redacted-postal-field],[redacted-postal-field],[redacted-postal-field],8,2,1
+licence.csv header: LICENCE_NO,CLIENT_NO,SV_ID,SS_ID,LICENCE_TYPE_NAME,LICENCE_CATEGORY_NAME,DATE_ISSUED,DATE_OF_EFFECT,DATE_OF_EXPIRY,STATUS,STATUS_TEXT,AP_ID,AP_PRJ_IDENT,SHIP_NAME,BSL_NO,AWL_TYPE
+licence.csv row:    10099947/1,1133847,1,107,Broadcasting,National Broadcasting,2026-06-22,2026-06-22,2027-06-30,1,Granted,10099947,,,,
+
+REFERENCE TABLE ROWS (from the same zip):
+client_type.csv row: 2,Other Commonwealth Agency
+licence_service.csv row: 1,Broadcasting
+licence_status.csv row: 1,Granted
+
+--- MACHINE-READABLE COPY OF THE ABOVE ---
+{
+  "artifact_type": "ACMA RRL per-licensee row artifact (extracted row-viewer record)",
+  "provenance_text": "ACMA REGISTER OF RADIOCOMMUNICATIONS LICENCES (RRL) \u2014 PER-LICENSEE ROW ARTIFACT\n====================================================================================\nOFFICIAL ACMA SOURCE URL: https://web.acma.gov.au/rrl-updates/spectra_rrl.zip\n  (HTTP 301 -> https://cdn.acma.gov.au/rrl/spectra_rrl.zip; the file is linked from the ACMA\n   page \"Radiocomms licence data\" at https://www.acma.gov.au/radiocomms-licence-data)\nDATA VINTAGE / ARCHIVE DATE: current RRL daily data download retrieved 19 August 2026 (UTC); HTTP Last-Modified header of the zip: Wed, 19 Aug 2026 20:47:27 GMT; archive date 2026-08-19.\n  ACMA states of this download: \"The download contains a complete data set current for that day.\"\n  ZIP SHA-256: 0697874595e8f70f034b2a20db0e71b955b19efb09e6aeecf4d4bc3581c07230\nclient.csv LOCATOR: file client.csv inside spectra_rrl.zip; record CLIENT_NO=1133847\nlicence.csv LOCATOR: file licence.csv inside spectra_rrl.zip; record LICENCE_NO=10099947/1\nCLIENT CLASSIFICATION: CLIENT_TYPE_ID=2 (Other Commonwealth Agency) per client_type.csv \u2014 an organisational, non-natural-person client classification (the excluded natural-person classification is CLIENT_TYPE_ID=7, \"Person\").\nORGANISATION / ABN: SPECIAL BROADCASTING SERVICE CORPORATION \u2014 ABN 91 314 398 574 (no ACN recorded), ACMA RRL CLIENT_NO=1133847\nLICENCE NUMBER: 10099947/1\nLICENCE TYPE / CATEGORY: Broadcasting / National Broadcasting\nLICENCE STATUS: STATUS=1 (Granted); date issued 2026-06-22; date of effect 2026-06-22; date of expiry 2027-06-30\nSERVICE BUCKET PRESENCE: broadcasting \u2014 this record sits in RRL service SV_ID=1 \"Broadcasting\" (licence_service.csv row: 1,Broadcasting); bucket definition: ACMA Broadcasting licences for broadcasters or broadcasting bodies.\n  In this snapshot, CLIENT_NO=1133847 holds 359 granted licence(s) in SV_ID=1; the row below is the most recently issued one.\n\nVERBATIM ROWS AS EXTRACTED FROM THE OFFICIAL ZIP (plain CSV; only postal/contact address columns redacted as out of scope):\nclient.csv header:  CLIENT_NO,LICENCEE,TRADING_NAME,ACN,ABN,POSTAL_STREET,POSTAL_SUBURB,POSTAL_STATE,POSTAL_POSTCODE,CAT_ID,CLIENT_TYPE_ID,FEE_STATUS_ID\nclient.csv row:     1133847,SPECIAL BROADCASTING SERVICE CORPORATION,Transmission Services,,91314398574,[redacted-postal-field],[redacted-postal-field],[redacted-postal-field],[redacted-postal-field],8,2,1\nlicence.csv header: LICENCE_NO,CLIENT_NO,SV_ID,SS_ID,LICENCE_TYPE_NAME,LICENCE_CATEGORY_NAME,DATE_ISSUED,DATE_OF_EFFECT,DATE_OF_EXPIRY,STATUS,STATUS_TEXT,AP_ID,AP_PRJ_IDENT,SHIP_NAME,BSL_NO,AWL_TYPE\nlicence.csv row:    10099947/1,1133847,1,107,Broadcasting,National Broadcasting,2026-06-22,2026-06-22,2027-06-30,1,Granted,10099947,,,,\n\nREFERENCE TABLE ROWS (from the same zip):\nclient_type.csv row: 2,Other Commonwealth Agency\nlicence_service.csv row: 1,Broadcasting\nlicence_status.csv row: 1,Granted\n",
+  "service_bucket": "broadcasting",
+  "service": {
+    "SV_ID": "1",
+    "SV_NAME": "Broadcasting"
+  },
+  "client": {
+    "CLIENT_NO": "1133847",
+    "LICENCEE": "SPECIAL BROADCASTING SERVICE CORPORATION",
+    "TRADING_NAME": "Transmission Services",
+    "ABN": "91 314 398 574",
+    "ACN": "",
+    "CLIENT_TYPE_ID": "2",
+    "CLIENT_TYPE_NAME": "Other Commonwealth Agency"
+  },
+  "licence": {
+    "LICENCE_NO": "10099947/1",
+    "LICENCE_TYPE_NAME": "Broadcasting",
+    "LICENCE_CATEGORY_NAME": "National Broadcasting",
+    "STATUS": "1",
+    "STATUS_TEXT": "Granted",
+    "DATE_ISSUED": "2026-06-22",
+    "DATE_OF_EFFECT": "2026-06-22",
+    "DATE_OF_EXPIRY": "2027-06-30"
+  },
+  "granted_licences_in_bucket_for_client": 359,
+  "source": {
+    "official_acma_source_url": "https://web.acma.gov.au/rrl-updates/spectra_rrl.zip",
+    "resolved_cdn_url": "https://cdn.acma.gov.au/rrl/spectra_rrl.zip",
+    "acma_download_page": "https://www.acma.gov.au/radiocomms-licence-data",
+    "data_vintage": "current RRL daily data download retrieved 19 August 2026 (UTC); HTTP Last-Modified header of the zip: Wed, 19 Aug 2026 20:47:27 GMT; archive date 2026-08-19",
+    "archive_date": "2026-08-19",
+    "zip_sha256": "0697874595e8f70f034b2a20db0e71b955b19efb09e6aeecf4d4bc3581c07230"
+  },
+  "verbatim_rows": {
+    "client_csv_header": "CLIENT_NO,LICENCEE,TRADING_NAME,ACN,ABN,POSTAL_STREET,POSTAL_SUBURB,POSTAL_STATE,POSTAL_POSTCODE,CAT_ID,CLIENT_TYPE_ID,FEE_STATUS_ID",
+    "client_csv_row_postal_redacted": "1133847,SPECIAL BROADCASTING SERVICE CORPORATION,Transmission Services,,91314398574,[redacted-postal-field],[redacted-postal-field],[redacted-postal-field],[redacted-postal-field],8,2,1",
+    "licence_csv_header": "LICENCE_NO,CLIENT_NO,SV_ID,SS_ID,LICENCE_TYPE_NAME,LICENCE_CATEGORY_NAME,DATE_ISSUED,DATE_OF_EFFECT,DATE_OF_EXPIRY,STATUS,STATUS_TEXT,AP_ID,AP_PRJ_IDENT,SHIP_NAME,BSL_NO,AWL_TYPE",
+    "licence_csv_row": "10099947/1,1133847,1,107,Broadcasting,National Broadcasting,2026-06-22,2026-06-22,2027-06-30,1,Granted,10099947,,,,"
+  }
+}

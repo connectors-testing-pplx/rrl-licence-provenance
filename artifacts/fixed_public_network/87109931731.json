@@ -1,0 +1,73 @@
+ACMA REGISTER OF RADIOCOMMUNICATIONS LICENCES (RRL) — PER-LICENSEE ROW ARTIFACT
+====================================================================================
+OFFICIAL ACMA SOURCE URL: https://web.acma.gov.au/rrl-updates/spectra_rrl.zip
+  (HTTP 301 -> https://cdn.acma.gov.au/rrl/spectra_rrl.zip; the file is linked from the ACMA
+   page "Radiocomms licence data" at https://www.acma.gov.au/radiocomms-licence-data)
+DATA VINTAGE / ARCHIVE DATE: current RRL daily data download retrieved 19 August 2026 (UTC); HTTP Last-Modified header of the zip: Wed, 19 Aug 2026 20:47:27 GMT; archive date 2026-08-19.
+  ACMA states of this download: "The download contains a complete data set current for that day."
+  ZIP SHA-256: 0697874595e8f70f034b2a20db0e71b955b19efb09e6aeecf4d4bc3581c07230
+client.csv LOCATOR: file client.csv inside spectra_rrl.zip; record CLIENT_NO=1316295
+licence.csv LOCATOR: file licence.csv inside spectra_rrl.zip; record LICENCE_NO=10725795/1
+CLIENT CLASSIFICATION: CLIENT_TYPE_ID=5 (Company) per client_type.csv — an organisational, non-natural-person client classification (the excluded natural-person classification is CLIENT_TYPE_ID=7, "Person").
+ORGANISATION / ABN: SWOOP TELECOMMUNICATIONS PTY LTD — ABN 87 109 931 731 (ACN 109931731), ACMA RRL CLIENT_NO=1316295
+LICENCE NUMBER: 10725795/1
+LICENCE TYPE / CATEGORY: Fixed / Point to Point
+LICENCE STATUS: STATUS=1 (Granted); date issued 2026-08-18; date of effect 2026-08-18; date of expiry 2027-09-26
+SERVICE BUCKET PRESENCE: fixed_public_network — this record sits in RRL service SV_ID=2 "Fixed" (licence_service.csv row: 2,Fixed); bucket definition: ACMA Fixed licences tied to public-network or carrier-style communications services.
+  In this snapshot, CLIENT_NO=1316295 holds 223 granted licence(s) in SV_ID=2; the row below is the most recently issued one.
+
+VERBATIM ROWS AS EXTRACTED FROM THE OFFICIAL ZIP (plain CSV; only postal/contact address columns redacted as out of scope):
+client.csv header:  CLIENT_NO,LICENCEE,TRADING_NAME,ACN,ABN,POSTAL_STREET,POSTAL_SUBURB,POSTAL_STATE,POSTAL_POSTCODE,CAT_ID,CLIENT_TYPE_ID,FEE_STATUS_ID
+client.csv row:     1316295,SWOOP TELECOMMUNICATIONS PTY LTD,SWOOP TELECOMMUNICATIONS PTY LTD,109931731,87109931731,[redacted-postal-field],[redacted-postal-field],[redacted-postal-field],[redacted-postal-field],8,5,1
+licence.csv header: LICENCE_NO,CLIENT_NO,SV_ID,SS_ID,LICENCE_TYPE_NAME,LICENCE_CATEGORY_NAME,DATE_ISSUED,DATE_OF_EFFECT,DATE_OF_EXPIRY,STATUS,STATUS_TEXT,AP_ID,AP_PRJ_IDENT,SHIP_NAME,BSL_NO,AWL_TYPE
+licence.csv row:    10725795/1,1316295,2,203,Fixed,Point to Point,2026-08-18,2026-08-18,2027-09-26,1,Granted,10726706,1148302_App_Sub_002050,,,
+
+REFERENCE TABLE ROWS (from the same zip):
+client_type.csv row: 5,Company
+licence_service.csv row: 2,Fixed
+licence_status.csv row: 1,Granted
+
+--- MACHINE-READABLE COPY OF THE ABOVE ---
+{
+  "artifact_type": "ACMA RRL per-licensee row artifact (extracted row-viewer record)",
+  "provenance_text": "ACMA REGISTER OF RADIOCOMMUNICATIONS LICENCES (RRL) \u2014 PER-LICENSEE ROW ARTIFACT\n====================================================================================\nOFFICIAL ACMA SOURCE URL: https://web.acma.gov.au/rrl-updates/spectra_rrl.zip\n  (HTTP 301 -> https://cdn.acma.gov.au/rrl/spectra_rrl.zip; the file is linked from the ACMA\n   page \"Radiocomms licence data\" at https://www.acma.gov.au/radiocomms-licence-data)\nDATA VINTAGE / ARCHIVE DATE: current RRL daily data download retrieved 19 August 2026 (UTC); HTTP Last-Modified header of the zip: Wed, 19 Aug 2026 20:47:27 GMT; archive date 2026-08-19.\n  ACMA states of this download: \"The download contains a complete data set current for that day.\"\n  ZIP SHA-256: 0697874595e8f70f034b2a20db0e71b955b19efb09e6aeecf4d4bc3581c07230\nclient.csv LOCATOR: file client.csv inside spectra_rrl.zip; record CLIENT_NO=1316295\nlicence.csv LOCATOR: file licence.csv inside spectra_rrl.zip; record LICENCE_NO=10725795/1\nCLIENT CLASSIFICATION: CLIENT_TYPE_ID=5 (Company) per client_type.csv \u2014 an organisational, non-natural-person client classification (the excluded natural-person classification is CLIENT_TYPE_ID=7, \"Person\").\nORGANISATION / ABN: SWOOP TELECOMMUNICATIONS PTY LTD \u2014 ABN 87 109 931 731 (ACN 109931731), ACMA RRL CLIENT_NO=1316295\nLICENCE NUMBER: 10725795/1\nLICENCE TYPE / CATEGORY: Fixed / Point to Point\nLICENCE STATUS: STATUS=1 (Granted); date issued 2026-08-18; date of effect 2026-08-18; date of expiry 2027-09-26\nSERVICE BUCKET PRESENCE: fixed_public_network \u2014 this record sits in RRL service SV_ID=2 \"Fixed\" (licence_service.csv row: 2,Fixed); bucket definition: ACMA Fixed licences tied to public-network or carrier-style communications services.\n  In this snapshot, CLIENT_NO=1316295 holds 223 granted licence(s) in SV_ID=2; the row below is the most recently issued one.\n\nVERBATIM ROWS AS EXTRACTED FROM THE OFFICIAL ZIP (plain CSV; only postal/contact address columns redacted as out of scope):\nclient.csv header:  CLIENT_NO,LICENCEE,TRADING_NAME,ACN,ABN,POSTAL_STREET,POSTAL_SUBURB,POSTAL_STATE,POSTAL_POSTCODE,CAT_ID,CLIENT_TYPE_ID,FEE_STATUS_ID\nclient.csv row:     1316295,SWOOP TELECOMMUNICATIONS PTY LTD,SWOOP TELECOMMUNICATIONS PTY LTD,109931731,87109931731,[redacted-postal-field],[redacted-postal-field],[redacted-postal-field],[redacted-postal-field],8,5,1\nlicence.csv header: LICENCE_NO,CLIENT_NO,SV_ID,SS_ID,LICENCE_TYPE_NAME,LICENCE_CATEGORY_NAME,DATE_ISSUED,DATE_OF_EFFECT,DATE_OF_EXPIRY,STATUS,STATUS_TEXT,AP_ID,AP_PRJ_IDENT,SHIP_NAME,BSL_NO,AWL_TYPE\nlicence.csv row:    10725795/1,1316295,2,203,Fixed,Point to Point,2026-08-18,2026-08-18,2027-09-26,1,Granted,10726706,1148302_App_Sub_002050,,,\n\nREFERENCE TABLE ROWS (from the same zip):\nclient_type.csv row: 5,Company\nlicence_service.csv row: 2,Fixed\nlicence_status.csv row: 1,Granted\n",
+  "service_bucket": "fixed_public_network",
+  "service": {
+    "SV_ID": "2",
+    "SV_NAME": "Fixed"
+  },
+  "client": {
+    "CLIENT_NO": "1316295",
+    "LICENCEE": "SWOOP TELECOMMUNICATIONS PTY LTD",
+    "TRADING_NAME": "SWOOP TELECOMMUNICATIONS PTY LTD",
+    "ABN": "87 109 931 731",
+    "ACN": "109931731",
+    "CLIENT_TYPE_ID": "5",
+    "CLIENT_TYPE_NAME": "Company"
+  },
+  "licence": {
+    "LICENCE_NO": "10725795/1",
+    "LICENCE_TYPE_NAME": "Fixed",
+    "LICENCE_CATEGORY_NAME": "Point to Point",
+    "STATUS": "1",
+    "STATUS_TEXT": "Granted",
+    "DATE_ISSUED": "2026-08-18",
+    "DATE_OF_EFFECT": "2026-08-18",
+    "DATE_OF_EXPIRY": "2027-09-26"
+  },
+  "granted_licences_in_bucket_for_client": 223,
+  "source": {
+    "official_acma_source_url": "https://web.acma.gov.au/rrl-updates/spectra_rrl.zip",
+    "resolved_cdn_url": "https://cdn.acma.gov.au/rrl/spectra_rrl.zip",
+    "acma_download_page": "https://www.acma.gov.au/radiocomms-licence-data",
+    "data_vintage": "current RRL daily data download retrieved 19 August 2026 (UTC); HTTP Last-Modified header of the zip: Wed, 19 Aug 2026 20:47:27 GMT; archive date 2026-08-19",
+    "archive_date": "2026-08-19",
+    "zip_sha256": "0697874595e8f70f034b2a20db0e71b955b19efb09e6aeecf4d4bc3581c07230"
+  },
+  "verbatim_rows": {
+    "client_csv_header": "CLIENT_NO,LICENCEE,TRADING_NAME,ACN,ABN,POSTAL_STREET,POSTAL_SUBURB,POSTAL_STATE,POSTAL_POSTCODE,CAT_ID,CLIENT_TYPE_ID,FEE_STATUS_ID",
+    "client_csv_row_postal_redacted": "1316295,SWOOP TELECOMMUNICATIONS PTY LTD,SWOOP TELECOMMUNICATIONS PTY LTD,109931731,87109931731,[redacted-postal-field],[redacted-postal-field],[redacted-postal-field],[redacted-postal-field],8,5,1",
+    "licence_csv_header": "LICENCE_NO,CLIENT_NO,SV_ID,SS_ID,LICENCE_TYPE_NAME,LICENCE_CATEGORY_NAME,DATE_ISSUED,DATE_OF_EFFECT,DATE_OF_EXPIRY,STATUS,STATUS_TEXT,AP_ID,AP_PRJ_IDENT,SHIP_NAME,BSL_NO,AWL_TYPE",
+    "licence_csv_row": "10725795/1,1316295,2,203,Fixed,Point to Point,2026-08-18,2026-08-18,2027-09-26,1,Granted,10726706,1148302_App_Sub_002050,,,"
+  }
+}

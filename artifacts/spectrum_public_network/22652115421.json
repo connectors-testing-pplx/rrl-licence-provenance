@@ -1,0 +1,73 @@
+ACMA REGISTER OF RADIOCOMMUNICATIONS LICENCES (RRL) — PER-LICENSEE ROW ARTIFACT
+====================================================================================
+OFFICIAL ACMA SOURCE URL: https://web.acma.gov.au/rrl-updates/spectra_rrl.zip
+  (HTTP 301 -> https://cdn.acma.gov.au/rrl/spectra_rrl.zip; the file is linked from the ACMA
+   page "Radiocomms licence data" at https://www.acma.gov.au/radiocomms-licence-data)
+DATA VINTAGE / ARCHIVE DATE: current RRL daily data download retrieved 19 August 2026 (UTC); HTTP Last-Modified header of the zip: Wed, 19 Aug 2026 20:47:27 GMT; archive date 2026-08-19.
+  ACMA states of this download: "The download contains a complete data set current for that day."
+  ZIP SHA-256: 0697874595e8f70f034b2a20db0e71b955b19efb09e6aeecf4d4bc3581c07230
+client.csv LOCATOR: file client.csv inside spectra_rrl.zip; record CLIENT_NO=20052175
+licence.csv LOCATOR: file licence.csv inside spectra_rrl.zip; record LICENCE_NO=13034352
+CLIENT CLASSIFICATION: CLIENT_TYPE_ID=5 (Company) per client_type.csv — an organisational, non-natural-person client classification (the excluded natural-person classification is CLIENT_TYPE_ID=7, "Person").
+ORGANISATION / ABN: AMAZON KUIPER AUSTRALIA PTY LTD — ABN 22 652 115 421 (ACN 652115421), ACMA RRL CLIENT_NO=20052175
+LICENCE NUMBER: 13034352
+LICENCE TYPE / CATEGORY: Spectrum / AWL - FSS Only
+LICENCE STATUS: STATUS=1 (Granted); date issued 2026-06-25; date of effect 2026-06-25; date of expiry 2031-06-24
+SERVICE BUCKET PRESENCE: spectrum_public_network — this record sits in RRL service SV_ID=85 "Spectrum" (licence_service.csv row: 85,Spectrum); bucket definition: ACMA Spectrum licences tied to public-network, mobile, or carrier-style communications services.
+  In this snapshot, CLIENT_NO=20052175 holds 15 granted licence(s) in SV_ID=85; the row below is the most recently issued one.
+
+VERBATIM ROWS AS EXTRACTED FROM THE OFFICIAL ZIP (plain CSV; only postal/contact address columns redacted as out of scope):
+client.csv header:  CLIENT_NO,LICENCEE,TRADING_NAME,ACN,ABN,POSTAL_STREET,POSTAL_SUBURB,POSTAL_STATE,POSTAL_POSTCODE,CAT_ID,CLIENT_TYPE_ID,FEE_STATUS_ID
+client.csv row:     20052175,AMAZON KUIPER AUSTRALIA PTY LTD,AMAZON KUIPER AUSTRALIA PTY LTD,652115421,22652115421,[redacted-postal-field],[redacted-postal-field],[redacted-postal-field],[redacted-postal-field],,5,1
+licence.csv header: LICENCE_NO,CLIENT_NO,SV_ID,SS_ID,LICENCE_TYPE_NAME,LICENCE_CATEGORY_NAME,DATE_ISSUED,DATE_OF_EFFECT,DATE_OF_EXPIRY,STATUS,STATUS_TEXT,AP_ID,AP_PRJ_IDENT,SHIP_NAME,BSL_NO,AWL_TYPE
+licence.csv row:    13034352,20052175,85,860,Spectrum,AWL - FSS Only,2026-06-25,2026-06-25,2031-06-24,1,Granted,,,,,None
+
+REFERENCE TABLE ROWS (from the same zip):
+client_type.csv row: 5,Company
+licence_service.csv row: 85,Spectrum
+licence_status.csv row: 1,Granted
+
+--- MACHINE-READABLE COPY OF THE ABOVE ---
+{
+  "artifact_type": "ACMA RRL per-licensee row artifact (extracted row-viewer record)",
+  "provenance_text": "ACMA REGISTER OF RADIOCOMMUNICATIONS LICENCES (RRL) \u2014 PER-LICENSEE ROW ARTIFACT\n====================================================================================\nOFFICIAL ACMA SOURCE URL: https://web.acma.gov.au/rrl-updates/spectra_rrl.zip\n  (HTTP 301 -> https://cdn.acma.gov.au/rrl/spectra_rrl.zip; the file is linked from the ACMA\n   page \"Radiocomms licence data\" at https://www.acma.gov.au/radiocomms-licence-data)\nDATA VINTAGE / ARCHIVE DATE: current RRL daily data download retrieved 19 August 2026 (UTC); HTTP Last-Modified header of the zip: Wed, 19 Aug 2026 20:47:27 GMT; archive date 2026-08-19.\n  ACMA states of this download: \"The download contains a complete data set current for that day.\"\n  ZIP SHA-256: 0697874595e8f70f034b2a20db0e71b955b19efb09e6aeecf4d4bc3581c07230\nclient.csv LOCATOR: file client.csv inside spectra_rrl.zip; record CLIENT_NO=20052175\nlicence.csv LOCATOR: file licence.csv inside spectra_rrl.zip; record LICENCE_NO=13034352\nCLIENT CLASSIFICATION: CLIENT_TYPE_ID=5 (Company) per client_type.csv \u2014 an organisational, non-natural-person client classification (the excluded natural-person classification is CLIENT_TYPE_ID=7, \"Person\").\nORGANISATION / ABN: AMAZON KUIPER AUSTRALIA PTY LTD \u2014 ABN 22 652 115 421 (ACN 652115421), ACMA RRL CLIENT_NO=20052175\nLICENCE NUMBER: 13034352\nLICENCE TYPE / CATEGORY: Spectrum / AWL - FSS Only\nLICENCE STATUS: STATUS=1 (Granted); date issued 2026-06-25; date of effect 2026-06-25; date of expiry 2031-06-24\nSERVICE BUCKET PRESENCE: spectrum_public_network \u2014 this record sits in RRL service SV_ID=85 \"Spectrum\" (licence_service.csv row: 85,Spectrum); bucket definition: ACMA Spectrum licences tied to public-network, mobile, or carrier-style communications services.\n  In this snapshot, CLIENT_NO=20052175 holds 15 granted licence(s) in SV_ID=85; the row below is the most recently issued one.\n\nVERBATIM ROWS AS EXTRACTED FROM THE OFFICIAL ZIP (plain CSV; only postal/contact address columns redacted as out of scope):\nclient.csv header:  CLIENT_NO,LICENCEE,TRADING_NAME,ACN,ABN,POSTAL_STREET,POSTAL_SUBURB,POSTAL_STATE,POSTAL_POSTCODE,CAT_ID,CLIENT_TYPE_ID,FEE_STATUS_ID\nclient.csv row:     20052175,AMAZON KUIPER AUSTRALIA PTY LTD,AMAZON KUIPER AUSTRALIA PTY LTD,652115421,22652115421,[redacted-postal-field],[redacted-postal-field],[redacted-postal-field],[redacted-postal-field],,5,1\nlicence.csv header: LICENCE_NO,CLIENT_NO,SV_ID,SS_ID,LICENCE_TYPE_NAME,LICENCE_CATEGORY_NAME,DATE_ISSUED,DATE_OF_EFFECT,DATE_OF_EXPIRY,STATUS,STATUS_TEXT,AP_ID,AP_PRJ_IDENT,SHIP_NAME,BSL_NO,AWL_TYPE\nlicence.csv row:    13034352,20052175,85,860,Spectrum,AWL - FSS Only,2026-06-25,2026-06-25,2031-06-24,1,Granted,,,,,None\n\nREFERENCE TABLE ROWS (from the same zip):\nclient_type.csv row: 5,Company\nlicence_service.csv row: 85,Spectrum\nlicence_status.csv row: 1,Granted\n",
+  "service_bucket": "spectrum_public_network",
+  "service": {
+    "SV_ID": "85",
+    "SV_NAME": "Spectrum"
+  },
+  "client": {
+    "CLIENT_NO": "20052175",
+    "LICENCEE": "AMAZON KUIPER AUSTRALIA PTY LTD",
+    "TRADING_NAME": "AMAZON KUIPER AUSTRALIA PTY LTD",
+    "ABN": "22 652 115 421",
+    "ACN": "652115421",
+    "CLIENT_TYPE_ID": "5",
+    "CLIENT_TYPE_NAME": "Company"
+  },
+  "licence": {
+    "LICENCE_NO": "13034352",
+    "LICENCE_TYPE_NAME": "Spectrum",
+    "LICENCE_CATEGORY_NAME": "AWL - FSS Only",
+    "STATUS": "1",
+    "STATUS_TEXT": "Granted",
+    "DATE_ISSUED": "2026-06-25",
+    "DATE_OF_EFFECT": "2026-06-25",
+    "DATE_OF_EXPIRY": "2031-06-24"
+  },
+  "granted_licences_in_bucket_for_client": 15,
+  "source": {
+    "official_acma_source_url": "https://web.acma.gov.au/rrl-updates/spectra_rrl.zip",
+    "resolved_cdn_url": "https://cdn.acma.gov.au/rrl/spectra_rrl.zip",
+    "acma_download_page": "https://www.acma.gov.au/radiocomms-licence-data",
+    "data_vintage": "current RRL daily data download retrieved 19 August 2026 (UTC); HTTP Last-Modified header of the zip: Wed, 19 Aug 2026 20:47:27 GMT; archive date 2026-08-19",
+    "archive_date": "2026-08-19",
+    "zip_sha256": "0697874595e8f70f034b2a20db0e71b955b19efb09e6aeecf4d4bc3581c07230"
+  },
+  "verbatim_rows": {
+    "client_csv_header": "CLIENT_NO,LICENCEE,TRADING_NAME,ACN,ABN,POSTAL_STREET,POSTAL_SUBURB,POSTAL_STATE,POSTAL_POSTCODE,CAT_ID,CLIENT_TYPE_ID,FEE_STATUS_ID",
+    "client_csv_row_postal_redacted": "20052175,AMAZON KUIPER AUSTRALIA PTY LTD,AMAZON KUIPER AUSTRALIA PTY LTD,652115421,22652115421,[redacted-postal-field],[redacted-postal-field],[redacted-postal-field],[redacted-postal-field],,5,1",
+    "licence_csv_header": "LICENCE_NO,CLIENT_NO,SV_ID,SS_ID,LICENCE_TYPE_NAME,LICENCE_CATEGORY_NAME,DATE_ISSUED,DATE_OF_EFFECT,DATE_OF_EXPIRY,STATUS,STATUS_TEXT,AP_ID,AP_PRJ_IDENT,SHIP_NAME,BSL_NO,AWL_TYPE",
+    "licence_csv_row": "13034352,20052175,85,860,Spectrum,AWL - FSS Only,2026-06-25,2026-06-25,2031-06-24,1,Granted,,,,,None"
+  }
+}

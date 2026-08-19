@@ -1,0 +1,73 @@
+ACMA REGISTER OF RADIOCOMMUNICATIONS LICENCES (RRL) — PER-LICENSEE ROW ARTIFACT
+====================================================================================
+OFFICIAL ACMA SOURCE URL: https://web.acma.gov.au/rrl-updates/spectra_rrl.zip
+  (HTTP 301 -> https://cdn.acma.gov.au/rrl/spectra_rrl.zip; the file is linked from the ACMA
+   page "Radiocomms licence data" at https://www.acma.gov.au/radiocomms-licence-data)
+DATA VINTAGE / ARCHIVE DATE: current RRL daily data download retrieved 19 August 2026 (UTC); HTTP Last-Modified header of the zip: Wed, 19 Aug 2026 20:47:27 GMT; archive date 2026-08-19.
+  ACMA states of this download: "The download contains a complete data set current for that day."
+  ZIP SHA-256: 0697874595e8f70f034b2a20db0e71b955b19efb09e6aeecf4d4bc3581c07230
+client.csv LOCATOR: file client.csv inside spectra_rrl.zip; record CLIENT_NO=239612
+licence.csv LOCATOR: file licence.csv inside spectra_rrl.zip; record LICENCE_NO=1912125/1
+CLIENT CLASSIFICATION: CLIENT_TYPE_ID=3 (State Government) per client_type.csv — an organisational, non-natural-person client classification (the excluded natural-person classification is CLIENT_TYPE_ID=7, "Person").
+ORGANISATION / ABN: LIFE SAVING VICTORIA LIMITED — ABN 21 102 927 364 (ACN 102927364), ACMA RRL CLIENT_NO=239612
+LICENCE NUMBER: 1912125/1
+LICENCE TYPE / CATEGORY: Maritime Coast / Limited Coast Marine Rescue
+LICENCE STATUS: STATUS=1 (Granted); date issued 2025-08-22; date of effect 2025-08-22; date of expiry 2026-10-01
+SERVICE BUCKET PRESENCE: maritime_coast — this record sits in RRL service SV_ID=5 "Maritime Coast" (licence_service.csv row: 5,Maritime Coast); bucket definition: ACMA Maritime Coast licences for maritime safety, coast-station, port, VTS, or GMDSS-style communications roles.
+  In this snapshot, CLIENT_NO=239612 holds 40 granted licence(s) in SV_ID=5; the row below is the most recently issued one.
+
+VERBATIM ROWS AS EXTRACTED FROM THE OFFICIAL ZIP (plain CSV; only postal/contact address columns redacted as out of scope):
+client.csv header:  CLIENT_NO,LICENCEE,TRADING_NAME,ACN,ABN,POSTAL_STREET,POSTAL_SUBURB,POSTAL_STATE,POSTAL_POSTCODE,CAT_ID,CLIENT_TYPE_ID,FEE_STATUS_ID
+client.csv row:     239612,LIFE SAVING VICTORIA LIMITED,LIFE SAVING VICTORIA LIMITED,102927364,21102927364,[redacted-postal-field],[redacted-postal-field],[redacted-postal-field],[redacted-postal-field],15,3,3
+licence.csv header: LICENCE_NO,CLIENT_NO,SV_ID,SS_ID,LICENCE_TYPE_NAME,LICENCE_CATEGORY_NAME,DATE_ISSUED,DATE_OF_EFFECT,DATE_OF_EXPIRY,STATUS,STATUS_TEXT,AP_ID,AP_PRJ_IDENT,SHIP_NAME,BSL_NO,AWL_TYPE
+licence.csv row:    1912125/1,239612,5,502,Maritime Coast,Limited Coast Marine Rescue,2025-08-22,2025-08-22,2026-10-01,1,Granted,9807240,,,,
+
+REFERENCE TABLE ROWS (from the same zip):
+client_type.csv row: 3,State Government
+licence_service.csv row: 5,Maritime Coast
+licence_status.csv row: 1,Granted
+
+--- MACHINE-READABLE COPY OF THE ABOVE ---
+{
+  "artifact_type": "ACMA RRL per-licensee row artifact (extracted row-viewer record)",
+  "provenance_text": "ACMA REGISTER OF RADIOCOMMUNICATIONS LICENCES (RRL) \u2014 PER-LICENSEE ROW ARTIFACT\n====================================================================================\nOFFICIAL ACMA SOURCE URL: https://web.acma.gov.au/rrl-updates/spectra_rrl.zip\n  (HTTP 301 -> https://cdn.acma.gov.au/rrl/spectra_rrl.zip; the file is linked from the ACMA\n   page \"Radiocomms licence data\" at https://www.acma.gov.au/radiocomms-licence-data)\nDATA VINTAGE / ARCHIVE DATE: current RRL daily data download retrieved 19 August 2026 (UTC); HTTP Last-Modified header of the zip: Wed, 19 Aug 2026 20:47:27 GMT; archive date 2026-08-19.\n  ACMA states of this download: \"The download contains a complete data set current for that day.\"\n  ZIP SHA-256: 0697874595e8f70f034b2a20db0e71b955b19efb09e6aeecf4d4bc3581c07230\nclient.csv LOCATOR: file client.csv inside spectra_rrl.zip; record CLIENT_NO=239612\nlicence.csv LOCATOR: file licence.csv inside spectra_rrl.zip; record LICENCE_NO=1912125/1\nCLIENT CLASSIFICATION: CLIENT_TYPE_ID=3 (State Government) per client_type.csv \u2014 an organisational, non-natural-person client classification (the excluded natural-person classification is CLIENT_TYPE_ID=7, \"Person\").\nORGANISATION / ABN: LIFE SAVING VICTORIA LIMITED \u2014 ABN 21 102 927 364 (ACN 102927364), ACMA RRL CLIENT_NO=239612\nLICENCE NUMBER: 1912125/1\nLICENCE TYPE / CATEGORY: Maritime Coast / Limited Coast Marine Rescue\nLICENCE STATUS: STATUS=1 (Granted); date issued 2025-08-22; date of effect 2025-08-22; date of expiry 2026-10-01\nSERVICE BUCKET PRESENCE: maritime_coast \u2014 this record sits in RRL service SV_ID=5 \"Maritime Coast\" (licence_service.csv row: 5,Maritime Coast); bucket definition: ACMA Maritime Coast licences for maritime safety, coast-station, port, VTS, or GMDSS-style communications roles.\n  In this snapshot, CLIENT_NO=239612 holds 40 granted licence(s) in SV_ID=5; the row below is the most recently issued one.\n\nVERBATIM ROWS AS EXTRACTED FROM THE OFFICIAL ZIP (plain CSV; only postal/contact address columns redacted as out of scope):\nclient.csv header:  CLIENT_NO,LICENCEE,TRADING_NAME,ACN,ABN,POSTAL_STREET,POSTAL_SUBURB,POSTAL_STATE,POSTAL_POSTCODE,CAT_ID,CLIENT_TYPE_ID,FEE_STATUS_ID\nclient.csv row:     239612,LIFE SAVING VICTORIA LIMITED,LIFE SAVING VICTORIA LIMITED,102927364,21102927364,[redacted-postal-field],[redacted-postal-field],[redacted-postal-field],[redacted-postal-field],15,3,3\nlicence.csv header: LICENCE_NO,CLIENT_NO,SV_ID,SS_ID,LICENCE_TYPE_NAME,LICENCE_CATEGORY_NAME,DATE_ISSUED,DATE_OF_EFFECT,DATE_OF_EXPIRY,STATUS,STATUS_TEXT,AP_ID,AP_PRJ_IDENT,SHIP_NAME,BSL_NO,AWL_TYPE\nlicence.csv row:    1912125/1,239612,5,502,Maritime Coast,Limited Coast Marine Rescue,2025-08-22,2025-08-22,2026-10-01,1,Granted,9807240,,,,\n\nREFERENCE TABLE ROWS (from the same zip):\nclient_type.csv row: 3,State Government\nlicence_service.csv row: 5,Maritime Coast\nlicence_status.csv row: 1,Granted\n",
+  "service_bucket": "maritime_coast",
+  "service": {
+    "SV_ID": "5",
+    "SV_NAME": "Maritime Coast"
+  },
+  "client": {
+    "CLIENT_NO": "239612",
+    "LICENCEE": "LIFE SAVING VICTORIA LIMITED",
+    "TRADING_NAME": "LIFE SAVING VICTORIA LIMITED",
+    "ABN": "21 102 927 364",
+    "ACN": "102927364",
+    "CLIENT_TYPE_ID": "3",
+    "CLIENT_TYPE_NAME": "State Government"
+  },
+  "licence": {
+    "LICENCE_NO": "1912125/1",
+    "LICENCE_TYPE_NAME": "Maritime Coast",
+    "LICENCE_CATEGORY_NAME": "Limited Coast Marine Rescue",
+    "STATUS": "1",
+    "STATUS_TEXT": "Granted",
+    "DATE_ISSUED": "2025-08-22",
+    "DATE_OF_EFFECT": "2025-08-22",
+    "DATE_OF_EXPIRY": "2026-10-01"
+  },
+  "granted_licences_in_bucket_for_client": 40,
+  "source": {
+    "official_acma_source_url": "https://web.acma.gov.au/rrl-updates/spectra_rrl.zip",
+    "resolved_cdn_url": "https://cdn.acma.gov.au/rrl/spectra_rrl.zip",
+    "acma_download_page": "https://www.acma.gov.au/radiocomms-licence-data",
+    "data_vintage": "current RRL daily data download retrieved 19 August 2026 (UTC); HTTP Last-Modified header of the zip: Wed, 19 Aug 2026 20:47:27 GMT; archive date 2026-08-19",
+    "archive_date": "2026-08-19",
+    "zip_sha256": "0697874595e8f70f034b2a20db0e71b955b19efb09e6aeecf4d4bc3581c07230"
+  },
+  "verbatim_rows": {
+    "client_csv_header": "CLIENT_NO,LICENCEE,TRADING_NAME,ACN,ABN,POSTAL_STREET,POSTAL_SUBURB,POSTAL_STATE,POSTAL_POSTCODE,CAT_ID,CLIENT_TYPE_ID,FEE_STATUS_ID",
+    "client_csv_row_postal_redacted": "239612,LIFE SAVING VICTORIA LIMITED,LIFE SAVING VICTORIA LIMITED,102927364,21102927364,[redacted-postal-field],[redacted-postal-field],[redacted-postal-field],[redacted-postal-field],15,3,3",
+    "licence_csv_header": "LICENCE_NO,CLIENT_NO,SV_ID,SS_ID,LICENCE_TYPE_NAME,LICENCE_CATEGORY_NAME,DATE_ISSUED,DATE_OF_EFFECT,DATE_OF_EXPIRY,STATUS,STATUS_TEXT,AP_ID,AP_PRJ_IDENT,SHIP_NAME,BSL_NO,AWL_TYPE",
+    "licence_csv_row": "1912125/1,239612,5,502,Maritime Coast,Limited Coast Marine Rescue,2025-08-22,2025-08-22,2026-10-01,1,Granted,9807240,,,,"
+  }
+}
